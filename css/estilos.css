@@ -1,0 +1,145 @@
+:root {
+    --azul-escuro: #376cfbff;
+    --azul-medio: #4294ff;
+    --azul: #e6ecff;
+    --cinza-escuro: #2d2d34ff;
+    --cinza-claro: #f2f2f2ff;
+    --branco: #ffffff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* UTILITÁRIOS */
+.fonte-azul {
+    color: var(--azul-medio);
+}
+
+/* BARRA DE NAVEGAÇÃO */
+nav {
+    background-color: var(--cinza-escuro);
+    padding: 1rem;
+}
+nav .logo {
+    display: inline;
+}
+nav p {
+    display: inline;
+    color: var(--branco);
+    font-size: 1.6em;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: var(--branco);
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: color 0.15s ease;
+}
+
+nav ul li a:hover {
+    color: var(--azul-medio);
+}
+nav ul li button {
+    background-color: var(--azul-medio);
+    border: 0;
+    border-radius: 0.25rem;
+}
+nav ul li button a {
+    display: inline-block;
+    font-size: 1rem;;
+    padding: 0.25rem;
+    text-transform: uppercase;
+}
+
+nav ul li button:hover {
+    background-color: var(--cinza-claro);
+}
+
+nav ul li button:hover a {
+    color: var(--cinza-escuro);
+}
+
+/* SECTION HERO */
+#hero {
+    background-color: var(--cinza-claro);
+    padding: 10rem 0;
+
+}
+#hero div.texto-hero,
+#hero div.imagem-hero {
+    display: inline-block;
+    width: 50%;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#hero h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#hero input {
+    padding: 0.5rem;
+    border: 0;
+
+}
+/* NOSSOS CLIENTES */
+#clientes {
+    padding: 5rem 0;
+    background-color: var(--cinza-escuro);
+    text-align: center;
+}
+#clientes h2 {
+    color: var(--branco);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+#clientes p {
+    color: var(--branco);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+#clientes .clientes img {
+    max-height: 50px;
+    margin: 1.5rem;
+    filter: grayscale(0.5); /* tira um pou do cinza da imagem */
+
+}
+
+button.button {
+    background-color: var(--azul-medio);
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--branco);
+    font-weight: bold;
+    transition: background-color 0.15s ease;
+}
+button.button:hover {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
