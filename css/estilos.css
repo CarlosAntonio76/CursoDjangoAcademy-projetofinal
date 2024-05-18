@@ -27,6 +27,13 @@ body {
     color: var(--azul-medio);
 }
 
+/* Container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /* Cempre centralizada */
+}
+
+
 /* BARRA DE NAVEGAÇÃO */
 nav {
     background-color: var(--cinza-escuro);
@@ -129,6 +136,39 @@ nav ul li button:hover a {
     filter: grayscale(0.5); /* tira um pou do cinza da imagem */
 
 }
+
+/* Sessao: Diferenciais */
+#diferenciais {
+    background-color: #f2f2f2;
+    color: var(--cinza-escuro);
+    padding: 2rem 0;
+}
+
+#diferenciais.diferencial {
+    background-color: var(--branco);
+    width: 33.3333%;
+    padding: 2%;
+    text-align: center;
+}
+#diferenciais.diferencial img {
+
+}
+
+#diferenciais.diferencial h3 {
+    
+}
+
+#diferenciais.diferencial p {
+    color: var(--azul); /*teste carlos */
+    
+}
+
+#diferenciais.diferencial a {
+    
+}
+
+
+
 
 button.button {
     background-color: var(--azul-medio);
