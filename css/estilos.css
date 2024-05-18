@@ -144,26 +144,37 @@ nav ul li button:hover a {
     padding: 2rem 0;
 }
 
-#diferenciais.diferencial {
+#diferenciais .diferencial {
     background-color: var(--branco);
-    width: 33.3333%;
+    width: 29.3333%;
+    margin: 2%;
     padding: 2%;
     text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
-#diferenciais.diferencial img {
+#diferenciais .diferencial img {
+    margin-bottom: 1.5rem;
 
 }
 
-#diferenciais.diferencial h3 {
+#diferenciais .diferencial h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#diferenciais .diferencial p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     
 }
 
-#diferenciais.diferencial p {
-    color: var(--azul); /*teste carlos */
-    
-}
-
-#diferenciais.diferencial a {
+#diferenciais .diferencial a {
+    font-size: 1.35rem;
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    text-transform: uppercase;
     
 }
 
